@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="36" failures="0" name="com.mt.testrunner.Testrunner" time="7.907" errors="6" skipped="30">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Bitnami\jenkins-2.89.4-0\apps\jenkins\jenkins_home\workspace\Mercurytsc"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_77/bin;C:\Program Files\Java\jdk1.8.0_77/bin;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Android;C:\Windows\System32;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="DESKTOP-IUV45J7$"/>
+    <property name="java.class.path" value="C:\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_77\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f F:\Suvidya_data\Java_Selenium\Mercurytscucumberprojdemo\pom.xml -s C:\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml clean install test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="| Suvidyap1 | P@ssword1 |" name="When user opens &quot;chrome&quot; browser" time="0.073">
+    <error message="unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 786 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 786 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.mt.steps.Loginsteps.Open_browser(Loginsteps.java:26)
+	at ✽.When user opens &quot;chrome&quot; browser(Login26.feature:10)
+</error>
+    <system-out>#Author: Suvidya Pawaskar
+#Feature: Login
+#Date:9-1-2018
+@Login
+Feature: Login feature
+  Verify the login feature of Mercury tours application
+
+  @SmokeTest
+  Scenario Outline: Verify that valid user able to login into Mercury tours application by using valid username and password &amp;#27;[90m# Login26.feature:17&amp;#27;[0m
+    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36muser is Login page of Mercury tours application&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser enters &quot;&lt;username&gt;&quot; as username&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser enters &quot;&lt;password&gt;&quot; as password&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser clicks on Sign In button&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser is on Flight Finder page&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser clicks on Sign OFF button&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser is Sign on page&amp;#27;[0m
+
+    Examples: 
+</system-out>
+    <system-err>Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 40134
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase classname="| Suvidyap1 | P@ssword1 |" name="| Suvidyap1 | P@ssword1 |" time="0.168">
+    <error message="unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 786 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 786 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.mt.steps.Loginsteps.Open_browser(Loginsteps.java:26)
+	at ✽.When user opens &quot;chrome&quot; browser(Login26.feature:10)
+</error>
+  </testcase>
+  <testcase classname="| Suvidyap1 | P@ssword1 |" name="And user enters application url &quot;http://newtours.demoaut.com/mercurywelcome.php&quot;" time="0.169">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap1 | P@ssword1 |" name="And user waits &quot;5&quot; seconds to page load" time="0.231">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap1 | P@ssword1 |" name="And user maximizes login page" time="0.242">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap1 | P@ssword1 |" name="Given user is Login page of Mercury tours application" time="0.326">
+    <skipped/>
+    <system-out>
+  Background: User accesses login page of Mercury tours application                  &amp;#27;[90m# Login26.feature:9&amp;#27;[0m
+    &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31muser opens &quot;&amp;#27;[0m&amp;#27;[31m&amp;#27;[1mchrome&amp;#27;[0m&amp;#27;[31m&quot; browser&amp;#27;[0m                                                 &amp;#27;[90m# Loginsteps.Open_browser(String)&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+        (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 786 milliseconds
+      Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+      System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+      Driver info: driver.version: ChromeDriver
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+      	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+      	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+      	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+      	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+      	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+      	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+      	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+      	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+      	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+      	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+      	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+      	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+      	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+      	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+      	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+      	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+      	at com.mt.steps.Loginsteps.Open_browser(Loginsteps.java:26)
+      	at ?.When user opens &quot;chrome&quot; browser(Login26.feature:10)
+      &amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser enters application url &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mhttp://newtours.demoaut.com/mercurywelcome.php&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# Loginsteps.EnterApplicationurl(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser waits &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m5&amp;#27;[0m&amp;#27;[36m&quot; seconds to page load&amp;#27;[0m                                          &amp;#27;[90m# Loginsteps.PageLoad(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser maximizes login page&amp;#27;[0m                                                    &amp;#27;[90m# Loginsteps.Maximize_browser()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| Suvidyap1 | P@ssword1 |" name="When user enters &quot;Suvidyap1&quot; as username" time="0.332">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap1 | P@ssword1 |" name="And user enters &quot;P@ssword1&quot; as password" time="0.34">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap1 | P@ssword1 |" name="And user clicks on Sign In button" time="0.341">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap1 | P@ssword1 |" name="Then user is on Flight Finder page" time="0.343">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap1 | P@ssword1 |" name="When user clicks on Sign OFF button" time="0.347">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap1 | P@ssword1 |" name="Then user is Sign on page" time="0.347">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap2 | P@ssword2 |" name="When user opens &quot;chrome&quot; browser" time="0.002">
+    <error message="unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 58 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 58 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.mt.steps.Loginsteps.Open_browser(Loginsteps.java:26)
+	at ✽.When user opens &quot;chrome&quot; browser(Login26.feature:10)
+</error>
+    <system-out>
+  @Login @SmokeTest
+  Scenario Outline: Verify that valid user able to login into Mercury tours application by using valid username and password &amp;#27;[90m# Login26.feature:28&amp;#27;[0m
+    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36muser is Login page of Mercury tours application&amp;#27;[0m                                                                    &amp;#27;[90m# Loginsteps.verify_Loginpage()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser enters &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mSuvidyap1&amp;#27;[0m&amp;#27;[36m&quot; as username&amp;#27;[0m                                                                                 &amp;#27;[90m# Loginsteps.EnterUsername(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser enters &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mP@ssword1&amp;#27;[0m&amp;#27;[36m&quot; as password&amp;#27;[0m                                                                                  &amp;#27;[90m# Loginsteps.EnterPassword(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser clicks on Sign In button&amp;#27;[0m                                                                                        &amp;#27;[90m# Loginsteps.ClickonSignIn()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser is on Flight Finder page&amp;#27;[0m                                                                                       &amp;#27;[90m# Loginsteps.VerifyFlightfinderpage()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser clicks on Sign OFF button&amp;#27;[0m                                                                                      &amp;#27;[90m# Loginsteps.ClickonSignOFF()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser is Sign on page&amp;#27;[0m                                                                                                &amp;#27;[90m# Loginsteps.VerifySignonpage()&amp;#27;[0m
+</system-out>
+    <system-err>Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 32776
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase classname="| Suvidyap2 | P@ssword2 |" name="| Suvidyap2 | P@ssword2 |" time="0.003">
+    <error message="unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 58 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 58 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.mt.steps.Loginsteps.Open_browser(Loginsteps.java:26)
+	at ✽.When user opens &quot;chrome&quot; browser(Login26.feature:10)
+</error>
+  </testcase>
+  <testcase classname="| Suvidyap2 | P@ssword2 |" name="And user enters application url &quot;http://newtours.demoaut.com/mercurywelcome.php&quot;" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap2 | P@ssword2 |" name="And user waits &quot;5&quot; seconds to page load" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap2 | P@ssword2 |" name="And user maximizes login page" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap2 | P@ssword2 |" name="Given user is Login page of Mercury tours application" time="0.028">
+    <skipped/>
+    <system-out>
+  Background: User accesses login page of Mercury tours application                  &amp;#27;[90m# Login26.feature:9&amp;#27;[0m
+    &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31muser opens &quot;&amp;#27;[0m&amp;#27;[31m&amp;#27;[1mchrome&amp;#27;[0m&amp;#27;[31m&quot; browser&amp;#27;[0m                                                 &amp;#27;[90m# Loginsteps.Open_browser(String)&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+        (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 58 milliseconds
+      Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+      System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+      Driver info: driver.version: ChromeDriver
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+      	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+      	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+      	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+      	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+      	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+      	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+      	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+      	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+      	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+      	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+      	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+      	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+      	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+      	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+      	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+      	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+      	at com.mt.steps.Loginsteps.Open_browser(Loginsteps.java:26)
+      	at ?.When user opens &quot;chrome&quot; browser(Login26.feature:10)
+      &amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser enters application url &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mhttp://newtours.demoaut.com/mercurywelcome.php&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# Loginsteps.EnterApplicationurl(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser waits &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m5&amp;#27;[0m&amp;#27;[36m&quot; seconds to page load&amp;#27;[0m                                          &amp;#27;[90m# Loginsteps.PageLoad(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser maximizes login page&amp;#27;[0m                                                    &amp;#27;[90m# Loginsteps.Maximize_browser()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| Suvidyap2 | P@ssword2 |" name="When user enters &quot;Suvidyap2&quot; as username" time="0.028">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap2 | P@ssword2 |" name="And user enters &quot;P@ssword2&quot; as password" time="0.028">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap2 | P@ssword2 |" name="And user clicks on Sign In button" time="0.028">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap2 | P@ssword2 |" name="Then user is on Flight Finder page" time="0.028">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap2 | P@ssword2 |" name="When user clicks on Sign OFF button" time="0.029">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap2 | P@ssword2 |" name="Then user is Sign on page" time="0.029">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap3 | P@ssword3 |" name="When user opens &quot;chrome&quot; browser" time="0.043">
+    <error message="unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 138 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 138 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.mt.steps.Loginsteps.Open_browser(Loginsteps.java:26)
+	at ✽.When user opens &quot;chrome&quot; browser(Login26.feature:10)
+</error>
+    <system-out>
+  @Login @SmokeTest
+  Scenario Outline: Verify that valid user able to login into Mercury tours application by using valid username and password &amp;#27;[90m# Login26.feature:29&amp;#27;[0m
+    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36muser is Login page of Mercury tours application&amp;#27;[0m                                                                    &amp;#27;[90m# Loginsteps.verify_Loginpage()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser enters &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mSuvidyap2&amp;#27;[0m&amp;#27;[36m&quot; as username&amp;#27;[0m                                                                                 &amp;#27;[90m# Loginsteps.EnterUsername(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser enters &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mP@ssword2&amp;#27;[0m&amp;#27;[36m&quot; as password&amp;#27;[0m                                                                                  &amp;#27;[90m# Loginsteps.EnterPassword(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser clicks on Sign In button&amp;#27;[0m                                                                                        &amp;#27;[90m# Loginsteps.ClickonSignIn()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser is on Flight Finder page&amp;#27;[0m                                                                                       &amp;#27;[90m# Loginsteps.VerifyFlightfinderpage()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser clicks on Sign OFF button&amp;#27;[0m                                                                                      &amp;#27;[90m# Loginsteps.ClickonSignOFF()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser is Sign on page&amp;#27;[0m                                                                                                &amp;#27;[90m# Loginsteps.VerifySignonpage()&amp;#27;[0m
+</system-out>
+    <system-err>Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 2689
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase classname="| Suvidyap3 | P@ssword3 |" name="| Suvidyap3 | P@ssword3 |" time="0.133">
+    <error message="unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 138 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 138 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.mt.steps.Loginsteps.Open_browser(Loginsteps.java:26)
+	at ✽.When user opens &quot;chrome&quot; browser(Login26.feature:10)
+</error>
+  </testcase>
+  <testcase classname="| Suvidyap3 | P@ssword3 |" name="And user enters application url &quot;http://newtours.demoaut.com/mercurywelcome.php&quot;" time="0.291">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap3 | P@ssword3 |" name="And user waits &quot;5&quot; seconds to page load" time="0.291">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap3 | P@ssword3 |" name="And user maximizes login page" time="0.293">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap3 | P@ssword3 |" name="Given user is Login page of Mercury tours application" time="0.434">
+    <skipped/>
+    <system-out>
+  Background: User accesses login page of Mercury tours application                  &amp;#27;[90m# Login26.feature:9&amp;#27;[0m
+    &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31muser opens &quot;&amp;#27;[0m&amp;#27;[31m&amp;#27;[1mchrome&amp;#27;[0m&amp;#27;[31m&quot; browser&amp;#27;[0m                                                 &amp;#27;[90m# Loginsteps.Open_browser(String)&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+        (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 138 milliseconds
+      Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+      System info: host: &apos;DESKTOP-IUV45J7&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_77&apos;
+      Driver info: driver.version: ChromeDriver
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+      	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+      	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+      	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+      	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+      	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+      	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+      	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+      	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+      	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+      	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+      	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+      	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+      	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+      	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+      	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+      	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+      	at com.mt.steps.Loginsteps.Open_browser(Loginsteps.java:26)
+      	at ?.When user opens &quot;chrome&quot; browser(Login26.feature:10)
+      &amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser enters application url &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mhttp://newtours.demoaut.com/mercurywelcome.php&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# Loginsteps.EnterApplicationurl(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser waits &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m5&amp;#27;[0m&amp;#27;[36m&quot; seconds to page load&amp;#27;[0m                                          &amp;#27;[90m# Loginsteps.PageLoad(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser maximizes login page&amp;#27;[0m                                                    &amp;#27;[90m# Loginsteps.Maximize_browser()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| Suvidyap3 | P@ssword3 |" name="When user enters &quot;Suvidyap3&quot; as username" time="0.449">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap3 | P@ssword3 |" name="And user enters &quot;P@ssword3&quot; as password" time="0.456">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap3 | P@ssword3 |" name="And user clicks on Sign In button" time="0.499">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap3 | P@ssword3 |" name="Then user is on Flight Finder page" time="0.506">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap3 | P@ssword3 |" name="When user clicks on Sign OFF button" time="0.516">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Suvidyap3 | P@ssword3 |" name="Then user is Sign on page" time="0.517">
+    <skipped/>
+  </testcase>
+</testsuite>
