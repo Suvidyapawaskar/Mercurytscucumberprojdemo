@@ -22,6 +22,7 @@ public class Loginsteps {
 	{
 		if(browsername.equalsIgnoreCase("chrome"))
 		{("In open browser method");
+		        System.out.println("Welcome");
 			System.out.println("In open browser method");
 			System.setProperty("webdriver.chrome.driver","G:\\Selenium Setup\\setup1\\chromedriver_win32 (8)\\chromedriver.exe");
 			driver = new ChromeDriver();
